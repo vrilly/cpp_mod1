@@ -7,10 +7,10 @@
 
 class Human
 {
-	const Brain brain;
+    const Brain brain;
 public:
-	const Brain &getBrain();
-	std::string identify();
+    const Brain &getBrain();
+    std::string identify();
 };
 
 #endif //HUMAN_HPP

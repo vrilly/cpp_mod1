@@ -11,6 +11,7 @@ void Zombie::announce()
     std::cout << "<" << name << " (" << type << ")> i eat ze braains"
               << std::endl;
 }
+
 Zombie::Zombie(const std::string &type)
     : type(type)
 {

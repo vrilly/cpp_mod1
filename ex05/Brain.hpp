@@ -8,10 +8,10 @@
 
 class Brain
 {
-	int iq;
+    int iq;
 public:
-	Brain();
-	std::string identify() const;
+    Brain();
+    std::string identify() const;
 };
 
 #endif //BRAIN_HPP

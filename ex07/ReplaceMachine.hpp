@@ -9,12 +9,21 @@
 
 class ReplaceMachine
 {
-	enum result {RESULT_OK, RESULT_EOF, RESULT_ERROR};
-	std::ifstream src_file;
-	std::ofstream dst_file;
-	result process_line();
+    enum result
+    {
+        RESULT_OK, RESULT_EOF, RESULT_ERROR
+    };
+    const std::string s1;
+    const std::string s2;
+    std::ifstream src_file;
+    std::ofstream dst_file;
+    size_t counter;
+    result process_line();
 public:
-	ReplaceMachine(std::string src, std::string s1, std::string s2);
+    ReplaceMachine(const std::string &src,
+                   const std::string &s1,
+                   const std::string &s2);
+    size_t replace();
 };
 
 #endif //REPLACEMACHINE_HPP

@@ -6,13 +6,14 @@
 #include <string>
 #include <iostream>
 #include "Weapon.hpp"
+
 class HumanA
 {
-	const Weapon *weapon;
-	std::string name;
+    const Weapon *weapon;
+    std::string name;
 public:
-	void attack() const;
-	HumanA(const std::string &name, const Weapon &weapon);
+    void attack() const;
+    HumanA(const std::string &name, const Weapon &weapon);
 };
 
 

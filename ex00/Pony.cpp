@@ -16,9 +16,12 @@ void Pony::honk()
 std::string Pony::get_color_name(Pony::pony_color color)
 {
     switch (color) {
-        case COLOR_RAINBOW:return "Rainbow";
-        case COLOR_BLACK:return "Black";
-        case COLOR_WHITE:return "White";
+        case COLOR_RAINBOW:
+            return "Rainbow";
+        case COLOR_BLACK:
+            return "Black";
+        case COLOR_WHITE:
+            return "White";
     }
 }
 

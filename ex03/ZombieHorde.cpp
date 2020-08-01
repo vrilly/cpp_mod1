@@ -13,6 +13,7 @@ void ZombieHorde::announce()
     for (int i = 0; i < zombie_count; i++)
         zombies[i].announce();
 }
+
 ZombieHorde::~ZombieHorde()
 {
     delete[] zombies;
