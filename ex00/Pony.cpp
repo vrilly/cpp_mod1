@@ -22,6 +22,8 @@ std::string Pony::get_color_name(Pony::pony_color color)
             return "Black";
         case COLOR_WHITE:
             return "White";
+		default:
+			return "Unknown";
     }
 }
 

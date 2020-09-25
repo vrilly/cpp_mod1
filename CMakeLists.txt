@@ -1,5 +1,5 @@
+cmake_minimum_required(VERSION 3.17)
 project(cpp_mod1)
-set(CMAKE_CXX_COMPILER "clang++")
 set(CMAKE_CXX_FLAGS "-Wall -Wextra -Werror -std=c++03")
 add_subdirectory(ex00)
 add_subdirectory(ex02)
